@@ -1,0 +1,251 @@
+html{
+    height: 820px;
+}
+header div {
+    height: 80px;
+}
+header{
+    background: #F5F5F5;
+}
+header div img{
+    height: 24px;
+    width: 24px;
+    margin-top: 38px;
+    margin-right: 140px;
+} 
+main{
+    background: #F5F5F5;
+}
+main div .text{
+    width: 854px;
+    height: 560px;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+}
+.text img{
+    margin-left: 403px;
+    margin-bottom: 40px;
+}
+.text h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    margin-bottom: 30px;
+}
+.text h3{
+    margin-left: 261px;
+    width: 332px;
+    height: 25px;
+    text-align: start;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+    line-height: 25px;
+}
+.text .text_city{
+    text-align: start;
+    width: 320px;
+    padding-left: 10px;
+    border: 1px solid #B0B0B0;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    margin-left: 261px;
+    cursor: pointer;
+}
+.text .text_city span{
+    color: black;
+}
+.text .text_city .iconfont{
+    width: 39px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    border-left: 1px solid #B0B0B0;
+}
+.text .cityAll_text{
+    position: absolute;
+    width: 330px;
+    display: none;
+    z-index: 4;
+    background: white;
+    overflow-y: scroll;
+    border: 1px solid #B0B0B0;
+    height: 268px;
+    left: 447px;
+    top: 224px;
+}
+.text .cityAll_text input{
+    width: 274px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    outline: none;
+    
+}
+.text .cityAll_text .list{
+    text-align: left;
+}
+.text .cityAll_text .list .word{
+    line-height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 30px;
+    color: #EF5B00;
+    background: #FCDECC;
+}
+.text .cityAll_text .list ul li{
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    cursor: pointer;
+    padding: 0px 10px;
+    border-bottom: 1px solid #B0B0B0;
+
+}
+.text p{
+    width: 332px;
+    height: 25px;
+    margin-left: 261px;
+    text-align: start;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.text .text_phone{
+    text-align: start;
+    width: 332px;
+    margin-left: 261px;
+    margin-bottom: 30px;
+}
+.text .text_phone div{
+    width: 332px;
+    height: 40px;
+    text-align: start;
+    margin-bottom: 40px;
+}
+.text .text_phone .text_show1,.text .text_phone .text_show2{
+    position: relative;
+    left: -74px;
+    line-height: 40px;
+    color: orangered;
+}
+.text .text_phone div .l{
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #B0B0B0;
+}
+.text .text_phone div span:first-child{
+    color: black;
+}
+.text .text_phone div span:last-child{
+    color: black;
+    margin-left: 10px;
+}
+.text .text_phone div input{
+    width: 250px;
+    height: 38px;
+    outline: none;
+    margin-left: -6px;
+    padding-left: 10px;
+}
+.text .text_phone>input{
+    width: 332px;
+    cursor: pointer;
+    color: white;
+    height: 40px;
+    outline: none;
+    background: orangered;
+}
+.text .phoneAll_next{
+    position: absolute;
+    display: none;
+    width: 330px;
+    background: white;
+    overflow-y: scroll;
+    border: 1px solid #B0B0B0;
+    height: 268px;
+    left: 447px;
+    top: 326px;
+}
+.text .phoneAll_next input{
+    width: 274px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    outline: none;
+    
+}
+.text .phoneAll_next .list{
+    text-align: left;
+}
+.text .phoneAll_next .list .word{
+    line-height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 30px;
+    color: #EF5B00;
+    background: #FCDECC;
+}
+.text .phoneAll_next .list ul li{
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    cursor: pointer;
+    padding: 0px 10px;
+    border-bottom: 1px solid #B0B0B0;
+
+}
+.text .phoneAll_next .list ul li span{
+    width: 301px;
+    text-align: right;
+    position: absolute;
+    left: 0px;
+    padding-right: 10px;
+}
+.text .text_tail{
+    margin-top: 90px;
+}
+.text .text_tail a{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+.text .text_tail a:hover{
+    color: orangered;
+}
+footer{
+    height: 100px;
+    text-align: center;
+    padding: 40px 0px;
+    background: #F5F5F5;
+}
+footer .tail{
+    margin-top: 40px;
+}
+footer .tail a{
+    color: black;
+    font-size: 14px;
+    padding: 0px 20px;
+    border-right: 1px solid #B0B0B0;
+    line-height: 30px;
+}
+footer .tail a:last-child{
+    border-right: none;
+}
+footer p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #797474;
+}
+footer p a{
+    font-size: 14px;
+    color: #797474;
+}
+footer a:hover{
+    color: orangered;
+}

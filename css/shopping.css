@@ -1,0 +1,336 @@
+html{
+    height: 2679px;
+}
+header{
+    height: 100px;
+    border-bottom: 2px solid orangered;
+}
+header .head{
+    line-height: 100px;
+    color: #757575;
+}
+header p,header span a{
+    color: #757575;    
+}
+header .logo img{
+    margin-top: 22px;
+}
+header h2{
+    color: #424242;
+    font-size: 28px;
+    font-weight: normal;
+    margin-left: 41px;
+}
+header p{
+    font-size: 12px;
+    margin-top: 8px;
+    margin-left: 35px;
+}
+header span a{
+    font-size: 14px; 
+    color: #424242;
+}
+header span i{
+    font-size: 14px;
+    color: #424242;
+    font-weight: bold;
+    padding-left: 6px;
+}
+header span:nth-of-type(1){
+    padding-right: 10px;
+    border-right: 1px solid #B0B0B0;
+    margin-left: 440px;
+}
+header span:nth-of-type(2){
+    padding-left: 10px;
+}
+header span:hover a{
+    color: orangered;
+}
+header span:hover i{
+    color: orangered;
+}
+header .head_show:hover .flow{
+    display: block;
+}
+header .flow{
+    display: none;
+    position: absolute;
+    right: 77px;
+    top: 60px;
+    z-index: 10;
+    width: 103px;
+    height: 152px;
+    background: white;
+    box-shadow: 0px 4px 4px #B0B0B0;
+}
+header .flow ul li{
+    text-align: center;
+    line-height: 30px;
+}
+header .flow ul li a{
+    font-size: 14px;
+    color: #424242;
+}
+header .flow ul li:hover{
+    background: #f3efef;
+}
+header .flow ul li:hover a{
+    color: orangered;
+}
+
+
+
+main{
+    margin-bottom: 20px;
+    background: #F5F5F5;
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+article .main_text img{
+    margin-left: 122px;
+}
+.main_text div{
+    margin-top: -200px;
+    margin-right: 302px;
+}
+.main_text div h1{
+    color: #B0B0B0;
+    font-size: 36px;
+}
+.main_text div a{
+    display: block;
+    color: #FFFFFF;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    width: 172px;
+    background: orangered;
+    height: 50px;
+}
+.recommend{
+    margin-top: 130px;
+}
+.recommend h2{
+    width: 482px;
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    background: #F5F5F5;
+    color: #757575;
+    text-align: center;
+    margin-left: 369px;
+    margin-top: -20px;
+}
+.recommend .recommend_head{
+    border-top: 1px solid #B0B0B0;
+    height: 10px;
+}
+.recommend .recommend_text{
+    width: 1220px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.recommend_text a{
+    width: 234px;
+    text-align: center;
+    height: 310px;
+    background: white;
+    margin-bottom: 14px;
+}
+.recommend_text a p{
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.recommend_text a p:nth-of-type(2){
+    color: orangered;
+}
+.recommend_text a div{
+    position: relative;
+    color: orangered;
+    border: 1px solid orangered;
+    font-size: 14px;
+    background: white;
+    line-height: 30px;
+    width: 167px;
+    display: none;
+    margin-left: 34px;
+}
+
+.recommend_text a:hover div{
+    display: block;
+    transform: translateY(-34px);
+}
+
+footer{
+    height: 712px;
+    margin-top: 20px;
+}
+.server_head{
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #B0B0B0;
+}
+.server_head ul li{
+    float: left;
+    width: 244px;
+    text-align: center;
+}
+.server_head ul li a{
+    border-right: 1px solid #B0B0B0;
+    padding-right: 50px;
+}
+.server_head ul li:last-child a{
+    border: none;
+}
+.server_head ul li a span{
+    color: black;
+}
+.server_head ul li a:hover span{
+    color: orangered;
+}
+
+
+.server_midden{
+    height: 200px;
+    padding: 40px 0px;
+}
+.server_midden dl{
+    float: left;
+    width: 160px;
+    height: 17px;
+}
+.server_midden dl dt{
+    color: black;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.server_midden dl dd{
+    line-height: 30px;
+}
+.server_midden dl dd a{
+    color: rgb(122, 120, 120);
+}
+.server_midden dl dd a:hover{
+    color: orangered;
+}
+.link{
+    float: right;
+    width: 160px;
+    height: 177px;
+    margin-right: 40px;
+    padding-left: 60px;
+    border-left: 1px solid #B0B0B0;
+    text-align: center;
+}
+.link p:first-child{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: orangered;
+}
+.link p:nth-of-type(2){
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.link a em{
+    font-size: 14px;
+    color: orangered;
+    padding: 8px 30px;
+    border: 1px solid orangered;
+}
+.link a em:hover{
+    color: white;
+    background: orangered;
+}
+.link_tail{
+    width: 180px;
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+    text-align: start;
+    display: flex;
+    margin-left: 6px;
+}
+.link_tail span #tail{
+    width: 20px;
+}
+.link_tail span #tail span{
+    font-size: 20px;
+    margin-left: 10px;
+    float: left;
+}
+.link_tail span a img{
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.link_tail span #tail:hover span{
+    color: orangered;
+}
+.link_tail span a:last-child:hover img{
+    display: block;
+}
+footer article{
+    background: #F5F5F5;
+    height: 350px;
+}
+.bottom div{
+    padding-top: 30px;
+}
+.bottom div img{
+    float: left;
+    margin-right: 10px;
+}
+.bottom div > a{
+    color: black;
+    font-size: 14px;
+    border-right: 1px solid #B0B0B0;
+    padding-right: 5px;
+    line-height: 25px;
+}
+.bottom div > a:nth-of-type(17){
+    border-right: none;
+}
+.bottom div > a:nth-of-type(18){
+    border-right: none;
+}
+.bottom div > a:last-child{
+    border-right: none;
+}
+.bottom div p{
+    margin-top: 10px;
+    width: 955px;
+    line-height: 25px;
+    margin-left: 65px;
+}
+.bottom div p:nth-of-type(2){
+    height: 57px;
+    margin-top: 10px;
+}
+.bottom div p:nth-of-type(2) a img{
+    padding-top: 14.5px;
+} 
+.bottom_images img:last-child{
+    margin-left: -142px;
+}
+.bottom div p:nth-of-type(2) a span img{
+    padding-top: 0;
+}
+.bottom div h2{
+    text-align: center;
+    color: orangered;
+    font-weight: normal;
+    font-family: "宋体";
+    padding: 20px 0px; 
+}
+.bottom div a:hover{
+    color: orangered;
+}

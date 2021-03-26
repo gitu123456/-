@@ -1,0 +1,156 @@
+html{
+    height: 866px;
+}
+header{
+    height: 98px;
+    line-height: 98px;
+}
+header img{
+    margin-left: 80px;
+}
+main {
+    height: 588px;
+    position: relative;
+}
+.background_login{
+    background: url(../images/login/背景.jpg) no-repeat;
+    background-position: top center;
+    height: 588px;
+    margin: 0 auto;
+}
+main div .login{
+    width: 410px;
+    height: 526px;
+    position: absolute;
+    top: 62px;
+    margin-left: 810px;
+    background: white;
+    text-align: center;
+}
+main div .login .login_head{
+    height: 83px;
+}
+.login .login_head a{
+    font-size: 25px;
+    line-height: 83px;
+    color: #666666;
+    padding: 0px 45px;
+}
+.login .login_head a:first-child{
+    border-right: 1px solid #666;
+    color: orangered;
+}
+.login .login_head a:hover{
+    color: orangered;
+}
+/* .login_one{
+    display: none;
+} */
+.login .login_one input{
+    border: 1px solid #B0B0B0;
+    width: 326px;
+    height: 40px;
+    outline: none;
+    padding-left: 20px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.login .login_one input:nth-of-type(3){
+    width: 348px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background: orangered;
+}
+.login .login_one > a:nth-of-type(1){
+    color: orangered;
+    font-size: 14px;
+}
+.login .login_one .login_midden{
+    margin-top: 30px;
+}
+.login .login_one .login_midden a{
+    font-size: 16px;
+    padding: 0px 8px;
+}
+.login .login_one .login_midden a:nth-of-type(1){
+    border-right: 1px solid #B0B0B0;
+}
+.login .login_one .login_midden a:hover{
+    color: orangered;
+}
+.login .login_one .login_tail{
+    width: 348px;
+    text-align: center;
+    height: 36px;
+    margin-top: 130px;
+    margin-left: 31px;
+}
+.login .login_one .login_tail span{
+    line-height: 36px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.login .login_one .login_tail a:nth-of-type(1) span{
+    color: #1490D4;
+}
+.login .login_one .login_tail a:nth-of-type(2) span{
+    color:red;
+}
+.login .login_one .login_tail a:nth-of-type(3) span{
+    color: #1490D4;
+}
+.login .login_one .login_tail a:nth-of-type(4) span{
+    color: rgb(23, 199, 23);
+}
+.login_two{
+    display: none;
+}
+.login_two p{
+    font-size: 14px;
+    color: black;
+}
+.login_two p:nth-of-type(1){
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.login_two img{
+    width: 180px;
+    height: 180px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+.login_two p:nth-of-type(2) span{
+    color: orangered;
+}
+footer{
+    height: 100px;
+    text-align: center;
+    padding: 40px 0px;
+}
+footer .tail{
+    margin-top: 40px;
+}
+footer .tail a{
+    color: black;
+    font-size: 14px;
+    padding: 0px 20px;
+    border-right: 1px solid #B0B0B0;
+    line-height: 30px;
+}
+footer .tail a:last-child{
+    border-right: none;
+}
+footer p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #797474;
+}
+footer p a{
+    font-size: 14px;
+    color: #797474;
+}
+footer a:hover{
+    color: orangered;
+}
